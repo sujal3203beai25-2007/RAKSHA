@@ -1,0 +1,55 @@
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Runtime database and SQLite files
+server/data/*.db
+server/data/*.db-*
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+
+# Android and Gradle generated files
+android/.gradle/
+android/.kotlin/
+android/**/build/
+android/local.properties
+android/.idea/
+android/captures/
+
+# Generated dependencies and caches
+.DS_Store
+Thumbs.db
+coverage/
+dist/
+
+# Local backups and scratch scripts
+_backup_pre_audit/
+scratch/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated files
+node_modules/
+android/.gradle/
+android/**/build/
+android/local.properties
+coverage/
+dist/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log

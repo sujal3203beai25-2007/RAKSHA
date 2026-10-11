@@ -1,0 +1,19 @@
+{
+  "appId": "com.raksha.healthcare",
+  "appName": "RAKSHA",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#00685f"
+    }
+  }
+}
